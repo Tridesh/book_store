@@ -14,7 +14,8 @@ function App() {
         <p className='home'>Welcome to LitNook</p>
         <p className='intro-text'>Make your life feeling happy</p>
       </div>
-      <p className='our_collection'>Our Collection</p>
+      <p className='our_collection'>Our Collections</p>
+      <p className='ex'>HEllo</p>
     </div>
   );
 }

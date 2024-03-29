@@ -32,8 +32,14 @@ code {
   left: 0;
   width: 100%; 
   z-index: 1; 
+  position: fixed;
 }
-
+.App {
+  z-index: -1;
+}
+.ex {
+  font-size: 100px;
+}
 .navbar ul {
   list-style-type: none;
   color: white; 
