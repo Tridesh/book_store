@@ -2,51 +2,81 @@
   font-family: font;
   src: url("font.ttf");
 }
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-container {
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.intro-img {
+  width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 1; 
+}
+
+.navbar ul {
+  list-style-type: none;
+  color: white; 
+  text-decoration: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: gray; 
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: red; 
+}
+
+.intro-text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.home {
-  padding-top: 30px;
-  color: red;
-  font-size: 35px;
   font-family: font;
 }
+
+.home,
 .intro-text {
-  /* font-family: font; */
-  
+  margin: 0;
+  font-size: 24px;
+  color: red;
+}
+.intro-text {
+  color: rgb(71, 71, 71);
+}
+.our_collection {
+  padding-left: 45%;
+  font-size: 25px;
+  color: gray;
+  font-family: font;
 }

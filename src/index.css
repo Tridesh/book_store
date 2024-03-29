@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(207, 83, 83); */
 }
 
 code {
@@ -28,4 +29,7 @@ code {
 }
 .navbar a:hover {
   color: red;
+}
+.intro-img {
+  width: 100%;
 }
