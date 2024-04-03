@@ -3,9 +3,11 @@ import './App.css';
 import Navbar from './Navbar.js';
 import img from './back-img.png';
 
+
 function App() {
   return (
     <div className="App">
+      
       <div className="image-container">
         <img className="intro-img" src={img} alt='' />
         <Navbar />

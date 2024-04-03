@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: scroll;
-  /* background-color: #d6d6d8; */
+  background-color: #dcdcdc;
 }
 
 code {
@@ -25,7 +25,12 @@ code {
 .intro-img {
   width: 100%;
 }
-
+.intro-img1 {
+  position: absolute;
+  top: -10px;
+  left: 2%;
+  height: 100px;
+}
 .navbar {
   position: absolute;
   top: 0;
@@ -46,20 +51,23 @@ code {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  padding-right: 20px;
+  padding-left: 50%;
+  /* top: 0; */
 }
-
 .navbar li {
   display: inline;
 }
 
 .navbar a {
-  color: gray; 
+  color: rgb(81, 81, 81);
   text-decoration: none;
+  /* background-color: white; */
 }
-
+.navbar {
+  background-color: #dddddd;
+}
 .navbar a:hover {
-  color: red; 
+  color: #826244; 
 }
 
 .intro-text-overlay {
@@ -75,11 +83,12 @@ code {
 .home,
 .intro-text {
   margin: 0;
-  font-size: 24px;
-  color: red;
+  font-size: 35px;
+  color: #826244;
 }
 .intro-text {
   color: rgb(71, 71, 71);
+  font-size: 25px;
 }
 .our_collection {
   padding-left: 45%;
