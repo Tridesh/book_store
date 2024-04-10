@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './Navbar.js';
 import img from './back-img.png';
-
+import data from './bookCards.json';
 
 function App() {
   return (
