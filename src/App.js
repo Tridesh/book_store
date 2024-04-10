@@ -7,7 +7,6 @@ import data from './bookCards.json';
 function App() {
   return (
     <div className="App">
-      
       <div className="image-container">
         <img className="intro-img" src={img} alt='' />
         <Navbar />
@@ -17,7 +16,13 @@ function App() {
         <p className='intro-text'>Make your life feeling happy</p>
       </div>
       <p className='our_collection'>Our Collections</p>
-      <p className='ex'>HEllo</p>
+      <div className='collection-scroll-bar'>
+        {data.map((book, index) => (
+          <div className='book-card' id={`card-${index}`} key={index}>
+            <h3>{book.title}</h3>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
