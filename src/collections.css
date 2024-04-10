@@ -1,0 +1,15 @@
+.collection-scroll-bar {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.collection-scroll-bar::-webkit-scrollbar {
+    display: none; 
+}
+.book-card {
+    display: inline-block;
+    margin-right: 10px;
+    height: 60vh;
+    width: 20vw;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+} 

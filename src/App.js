@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar.js';
 import img from './back-img.png';
 import data from './bookCards.json';
+import './collections.css';
 
 function App() {
   return (
@@ -19,10 +20,12 @@ function App() {
       <div className='collection-scroll-bar'>
         {data.map((book, index) => (
           <div className='book-card' id={`card-${index}`} key={index}>
+            <img className="picture" src={require(`${book.image}`).default} alt={book.title} />
             <h3>{book.title}</h3>
           </div>
         ))}
       </div>
+      <h1>Hello</h1>
     </div>
   );
 }
