@@ -12,4 +12,15 @@
     width: 20vw;
     background-color: rgb(202, 202, 202);
     text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    white-space: normal;
+}
+.price {
+    float: left;
+    margin-left: 20px;
 } 
+.rating {
+    float: right;
+    margin-right: 20px;
+}

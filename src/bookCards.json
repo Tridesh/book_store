@@ -3,42 +3,56 @@
         "id": "1",
         "title": "Dopamine Detox",
         "description": "Do you keep procrastinating? Do you feel restless and unable to focus on your work? Do you have trouble getting excited about major goals?If so, you might need a dopamine detox.",
-        "image": "./images/img1.png"
+        "image": "./images/img1.png",
+        "price": "199",
+        "rating": "4.5"
     },
     {
         "id": "2",
         "title": "The Subtle Art of Not Giving a F*ck",
         "description": "For decades, we’ve been told that positive thinking is the key to a happy, rich life. F**k positivity, Mark Manson says. Let’s be honest, shit is f**ked and we have to live with it. In his wildly popular Internet blog, Manson doesn’t sugarcoat or equivocate. He tells it like it is—a dose of raw, refreshing, honest truth that is sorely lacking today. The Subtle Art of Not Giving a F**k is his antidote to the coddling, let’s-all-feel-good mindset that has infected modern society and spoiled a generation, rewarding them with gold medals just for showing up.",
-        "image": "./images/img2.png"
+        "image": "./images/img2.png",
+        "price": "499",
+        "rating": "4.5"
     },
     {
         "id": "3",
         "title": "The Monk Who Sold His Ferrari",
         "description": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer?s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India",
-        "image": "./images/img3.png"
+        "image": "./images/img3.png",
+        "price": "399",
+        "rating": "4.5"
     },
     {
         "id": "4",
         "title": "The Psychology of Money",
         "description": "Timeless lessons on wealth, greed, and happiness doing well with money isn?t necessarily about what you know. It?s about how you behave. And behavior is hard to teach, even to really smart people. How to manage money, invest it, and make business decisions are typically considered to involve a lot of mathematical calculations, where data and formulae tell us exactly what to do. But in the real world, people don?t make financial decisions on a spreadsheet.",
-        "image": "./images/img4.png"
+        "image": "./images/img4.png",
+        "price": "179",
+        "rating": "4.5"
     },
     {
         "id": "5",
         "title": "The Law of Success In Sixteen Lessons",
         "description": "Fears are nothing more than a state of mind.”From helping you rid yourself of aimlessness and find a definite purpose to teaching you the art of negotiating harmoniously with others, this course on the fundamentals of success will guide you, lesson by lesson, through the sixteen laws of success, which include mastering fears and increasing self-confidence, inculcating the habit of saving your income, stimulating your imagination, practicing self-control, accurate thinking and profiting by failure",
-        "image": "./images/img5.png"
+        "image": "./images/img5.png",
+        "price": "129",
+        "rating": "4.5"
     },
     {
         "id": "6",
         "title": "Tuesdays With Morrie",
         "description": "Maybe it was a grandparent, or a teacher or a colleague? Someone older, patient and wise, who understood you when you were young and searching, and gave you sound advice to help",
-        "image": "./images/img6.png"
+        "image": "./images/img6.png",
+        "price": "999",
+        "rating": "4.5"
     },
     {
         "id": "7",
         "title": "The Art of Laziness",
         "description": "Do you constantly feel unmotivated to work on your dreams? If the answer is yes, then this book is for you. Laziness stops us from enjoying the little time we have. It doesn't help you accomplish your goals. It stops you from starting anything new. It makes your life miserable.",
-        "image": "./images/img7.png"
+        "image": "./images/img7.png",
+        "price": "699",
+        "rating": "4.5"
     }
 ]
