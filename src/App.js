@@ -20,7 +20,7 @@ function App() {
       <div className='collection-scroll-bar'>
         {data.map((book, index) => (
           <div className='book-card' id={`card-${index}`} key={index}>
-            <img className="picture" src={require(`${book.image}`).default} alt={book.title} />
+            <img className="picture" src={book.image} alt={book.title} />
             <h3>{book.title}</h3>
             <div className='card-footer'><span className='price'>Price: {book.price}</span><span className='rating'>Rating: {book.rating}</span></div>
           </div>
