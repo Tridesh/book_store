@@ -13,10 +13,10 @@ function App() {
         <Navbar />
       </div>
       <div className="intro-text-overlay">
-        <p className='home'>Welcome to LitNook</p>
+        <p id = "home" className='home'>Welcome to LitNook</p>
         <p className='intro-text'>Make your life feeling happy</p>
       </div>
-      <p className='our_collection'>Our Collections</p>
+      <p id = "our_collection" className='our_collection'>Our Collections</p>
       <div className='collection-scroll-bar'>
         {data.map((book, index) => (
           <div className='book-card' id={`card-${index}`} key={index}>
