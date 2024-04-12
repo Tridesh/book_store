@@ -16,6 +16,10 @@
     overflow: hidden;
     white-space: normal;
 }
+.book-card:hover {
+    scale: 1.02;
+    background-color: rgb(191, 191, 191);
+}
 .price {
     float: left;
     margin-left: 20px;

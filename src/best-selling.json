@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "description": "For decades, we’ve been told that positive thinking is the key to a happy, rich life. F**k positivity, Mark Manson says. Let’s be honest, shit is f**ked and we have to live with it. In his wildly popular Internet blog, Manson doesn’t sugarcoat or equivocate. He tells it like it is—a dose of raw, refreshing, honest truth that is sorely lacking today. The Subtle Art of Not Giving a F**k is his antidote to the coddling, let’s-all-feel-good mindset that has infected modern society and spoiled a generation, rewarding them with gold medals just for showing up.",
+        "image": "img2.png",
+        "price": "499",
+        "rating": "4.5"
+    },
+    {
+        "id": "2",
+        "title": "The Monk Who Sold His Ferrari",
+        "description": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer?s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India",
+        "image": "img3.png",
+        "price": "399",
+        "rating": "4.5"
+    },
+    {
+        "id": "3",
+        "title": "The Law of Success In Sixteen Lessons",
+        "description": "Fears are nothing more than a state of mind.”From helping you rid yourself of aimlessness and find a definite purpose to teaching you the art of negotiating harmoniously with others, this course on the fundamentals of success will guide you, lesson by lesson, through the sixteen laws of success, which include mastering fears and increasing self-confidence, inculcating the habit of saving your income, stimulating your imagination, practicing self-control, accurate thinking and profiting by failure",
+        "image": "img5.png",
+        "price": "129",
+        "rating": "4.5"
+    }
+]

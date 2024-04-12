@@ -99,3 +99,17 @@ code {
   justify-content: center;
   text-align: center;
 }
+.best-selling-text {
+  text-align: center;
+  font-family: font;
+  font-size: 2vw;
+}
+.best-selling {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+.best {
+  background-color: #BAB372;
+}

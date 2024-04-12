@@ -4,6 +4,7 @@ import Navbar from './Navbar.js';
 import img from './back-img.png';
 import data from './bookCards.json';
 import './collections.css';
+import data_best from './best-selling.json';
 
 function App() {
   return (
@@ -25,6 +26,18 @@ function App() {
             <div className='card-footer'><span className='price'>Price: {book.price}</span><span className='rating'>Rating: {book.rating}</span></div>
           </div>
         ))}
+      </div>
+      <div className='best'>
+        <p id = "best" className='best-selling-text'>Best Selling</p>
+        <div id = "best" className='best-selling'>
+          {data_best.map((book, index) => (
+            <div className='book-card' id={`card-${index}`} key={index}>
+              <img className="picture" src={book.image} alt={book.title} />
+              <h3>{book.title}</h3>
+              <div className='card-footer'><span className='price'>Price: {book.price}</span><span className='rating'>Rating: {book.rating}</span></div>
+            </div>
+          ))}
+        </div>
       </div>
       <h1>Hello</h1>
     </div>
