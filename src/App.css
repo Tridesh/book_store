@@ -113,3 +113,17 @@ code {
 .best {
   background-color: #BAB372;
 }
+.picture {
+  width: 11vw;
+  padding: 10px;
+}
+#profile {
+  width: 4vw;
+  border-radius: 60px;
+}
+.review-text {
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: font;
+  color: gray;
+}
