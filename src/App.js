@@ -5,6 +5,7 @@ import img from './back-img.png';
 import data from './bookCards.json';
 import './collections.css';
 import data_best from './best-selling.json';
+import './review-section.css';
 
 function App() {
   return (
@@ -40,10 +41,10 @@ function App() {
         </div>
       </div>
       <div id = "review" className='review-section'>
-          {data.map((book, item) => (
+          {data.map((book, index) => (
             <div className='review-card' id = {`card-${index}`} key = {index}>
               <img className='review-img' src = {book.image} alt = {book.title} />
-              <h3>{book.title}</h3>
+              <h3>{book.title}</h3> 
               
             </div>
           ))
