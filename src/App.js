@@ -39,8 +39,15 @@ function App() {
           ))}
         </div>
       </div>
-      <div className='review-section'>
-        
+      <div id = "review" className='review-section'>
+          {data.map((book, item) => (
+            <div className='review-card' id = {`card-${index}`} key = {index}>
+              <img className='review-img' src = {book.image} alt = {book.title} />
+              <h3>{book.title}</h3>
+              
+            </div>
+          ))
+          }
       </div>
       <h1>Hello</h1>
     </div>
