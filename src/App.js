@@ -44,7 +44,8 @@ function App() {
       <div id = "review" className='review-section'> 
           {data.map((book, index) => (
             <div className='review-card' id = {`card-${index}`} key = {index}>
-              <img className='picture' src = {require(`./${book.image}`)} alt = {book.title} /> <span className='profile'><img id = "profile" src = {require("./user-icon.jpg")} alt = "user-icon"></img>Tridesh</span>
+              <div className='profile'><img id = "profile" src = {require("./user-icon.jpg")} alt = "user-icon"></img>Tridesh</div>
+              <img className='picture' src = {require(`./${book.image}`)} alt = {book.title} /> 
               <h3>{book.title}</h3> 
               
             </div>
